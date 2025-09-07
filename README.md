@@ -1,9 +1,9 @@
-<table align="center">
+<table align="center" style="border: none;">
 <tr>
-<td align="center">
+<td align="center" style="border: none;">
 <h1>🏴‍☠️ ONE PIECE API</h1>
 </td>
-<td>
+<td style="border: none;">
 <img src="./src/assets/images/logo.png" alt="One Piece Logo" width="120"/>
 </td>
 </tr>
