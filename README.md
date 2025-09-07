@@ -1,9 +1,13 @@
-<div align="center">
-    <div style="display:flex;align-items:center;gap:12px;justify-content:center;">
-        <p style="margin:0;font-weight:700;letter-spacing:2px;">ONE PIECE API</p>
-        <img src="src/assets/images/logo.png" alt="One Piece API Logo" width="140"/>
-    </div>
-</div>
+<table align="center">
+<tr>
+<td align="center">
+<h1>🏴‍☠️ ONE PIECE API</h1>
+</td>
+<td>
+<img src="./src/assets/images/logo.png" alt="One Piece Logo" width="120"/>
+</td>
+</tr>
+</table>
 
 
 A TypeScript React application for exploring the world of One Piece, built as a learning project to master modern web development technologies.
