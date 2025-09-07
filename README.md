@@ -1,6 +1,6 @@
 # One Piece API 🏴‍☠️
 
-![One Piece Logo](https://logos-world.net/wp-content/uploads/2021/02/One-Piece-Logo.png)
+![One Piece Logo](./src/logo.png)
 
 A TypeScript React application for exploring the world of One Piece, built as a learning project to master modern web development technologies.
 
