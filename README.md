@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏴‍☠️ ONE PIECE API <img src="./src/assets/images/logo.png" alt="One Piece Logo" width="60"/>
+# ONE PIECE API <img src="./src/assets/images/logo.png" alt="One Piece Logo" width="60"/>
 
 </div>
 
