@@ -1,6 +1,12 @@
 # One Piece API 🏴‍☠️
 
+![One Piece Logo](https://logos-world.net/wp-content/uploads/2021/02/One-Piece-Logo.png)
+
 A TypeScript React application for exploring the world of One Piece, built as a learning project to master modern web development technologies.
+
+<div align="center">
+  <img src="https://i.imgur.com/8QpQJ0x.gif" alt="Luffy Gear 5" width="400"/>
+</div>
 
 ## 🎯 Learning Goals
 
@@ -10,8 +16,14 @@ A TypeScript React application for exploring the world of One Piece, built as a 
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+</div>
+
 - **Frontend**: React + TypeScript
-- **Backend**: Supabase
+- **Backend**: Supabase  
 - **Database**: PostgreSQL (via Supabase)
 
 ## 📖 Project Overview
@@ -21,4 +33,12 @@ This project serves as a One Piece API where users can explore information about
 ## 🚀 Getting Started
 
 This project is currently in development as part of my TypeScript and React learning journey.
+
+<div align="center">
+  <img src="https://64.media.tumblr.com/tumblr_lqw36dUkpJ1qcwhkeo1_400.gif" alt="Straw Hat Pirates" width="300"/>
+</div>
+
+---
+
+*Set sail and explore the Grand Line of web development!* ⛵
 
