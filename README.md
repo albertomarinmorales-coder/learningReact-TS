@@ -5,7 +5,7 @@
 A TypeScript React application for exploring the world of One Piece, built as a learning project to master modern web development technologies.
 
 <div align="center">
-  <img src="https://i.imgur.com/8QpQJ0x.gif" alt="Luffy Gear 5" width="400"/>
+  <img src="./src/assets/images/luffyG5.png" alt="Luffy Gear 5" width="400"/>
 </div>
 
 ## 🎯 Learning Goals
