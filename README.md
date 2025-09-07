@@ -1,6 +1,6 @@
 <div align="center">
 
-# ONE PIECE API <img src="./src/assets/images/logo.png" alt="One Piece Logo" width="60"/>
+# ONE PIECE API <img src="./src/assets/images/logo.png" alt="One Piece Logo" width="40"/>
 
 </div>
 
@@ -21,10 +21,10 @@ A TypeScript React application for exploring the world of One Piece, built as a 
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
 </div>
 
 - **Frontend**: React + TypeScript + Next.js
