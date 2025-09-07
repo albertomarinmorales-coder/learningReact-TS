@@ -21,10 +21,12 @@ A TypeScript React application for exploring the world of One Piece, built as a 
 ## <img src="./src/assets/images/tool.png" alt="Tools" width="32"/> Tech Stack
 
 <div align="center">
+  <img src="./src/assets/images/luffy-left.png" alt="Luffy Left" width="60"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="./src/assets/images/luffy-right.png" alt="Luffy Right" width="60"/>
 </div>
 
 - **Frontend**: React + TypeScript + Next.js
@@ -45,5 +47,4 @@ This project is currently in development as part of my TypeScript, React, and Ne
 
 ---
 
-*Set sail and explore the Grand Line of web development!* ⛵
 
