@@ -1,50 +1,69 @@
-<div align="center">
+# React + TypeScript + Vite
 
-# ONE PIECE API <img src="./docs-assets/assets/images/logo.png" alt="One Piece Logo" width="40"/>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-</div>
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-A TypeScript React application for exploring the world of One Piece, built as a learning project to master modern web development technologies.
+## Expanding the ESLint configuration
 
-<div align="center">
-  <img src="./docs-assets/assets/images/luffyG5.png" alt="Luffy Gear 5" width="400"/>
-</div>
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## <img src="./docs-assets/assets/images/akuma.png" alt="Akuma no Mi" width="32"/> Learning Goals
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-- **TypeScript**: Strengthening type-safe development practices
-- **React**: Building dynamic and interactive user interfaces
-- **Next.js**: Mastering full-stack React framework with SSR and SSG
-- **Supabase**: Implementing backend services and database management
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
 
-## <img src="./docs-assets/assets/images/tool.png" alt="Tools" width="32"/> Tech Stack
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-<div align="center">
-  <img src="./docs-assets/assets/images/luffy-right.png" alt="Luffy Left" width="60"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
-  <img src="./docs-assets/assets/images/luffy-left.png" alt="Luffy Right" width="60"/>
-</div>
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-- **Frontend**: React + TypeScript + Next.js
-- **Backend**: Supabase  
-- **Database**: PostgreSQL (via Supabase)
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## <img src="./docs-assets/assets/images/map.png" alt="Map" width="32"/> Project Overview
-
-This project serves as a One Piece API where users can explore information about characters, crews, devil fruits, and adventures from the One Piece universe. The goal is to create a comprehensive database and interface while learning the fundamentals of full-stack development with modern tools including Next.js for server-side rendering and optimized performance.
-
-## <img src="./docs-assets/assets/images/logpose.png" alt="Log Pose" width="32"/> Getting Started
-
-This project is currently in development as part of my TypeScript, React, and Next.js learning journey.
-
-<div align="center">
-  <img src="https://64.media.tumblr.com/tumblr_lqw36dUkpJ1qcwhkeo1_400.gif" alt="Straw Hat Pirates" width="300"/>
-</div>
-
----
-
-
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```

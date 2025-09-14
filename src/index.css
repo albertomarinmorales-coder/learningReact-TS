@@ -1,0 +1,10 @@
+/* Reset básico para eliminar márgenes y padding por defecto */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
