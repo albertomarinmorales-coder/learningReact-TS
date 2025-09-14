@@ -4,7 +4,7 @@
 
 <img src="./docs-assets/assets/images/logo.png" alt="One Piece Logo" width="120" height="120"/>
 
-### *"In a world of endless possibilities, adventure begins with a single line of code"*
+### *"I'm gonna be King of the Pirates!"* - **Monkey D. Luffy**
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -23,8 +23,7 @@
 
 Embark on an **epic coding adventure** through the treacherous waters of modern frontend development. This isn't just another React app – it's a **masterfully crafted experience** that combines the beloved world of **One Piece** with cutting-edge web technologies.
 
-> *"I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean... is the Pirate King!"*  
-> — **Monkey D. Luffy**
+> *"Dreams never end!"* — **Marshall D. Teach (Blackbeard)**
 
 ---
 
@@ -202,7 +201,7 @@ learningReact-TS/
 
 ## 🎨 **Design Philosophy**
 
-> *"The art of simplicity is a puzzle of complexity."* - **Douglas Horton**
+> *"Being alone is more painful than getting hurt!"* — **Monkey D. Luffy**
 
 Our design approach combines **modern minimalism** with **vibrant anime aesthetics**:
 
@@ -279,29 +278,11 @@ git push origin feature/amazing-new-feature
 
 ---
 
-## 🏆 **Acknowledgments**
-
-<div align="center">
-
-### 🙏 **Special Thanks To**
-
-| Contributor | Role | Contribution |
-|:----------:|:----:|:------------:|
-| **Eiichiro Oda** | 🎨 Original Creator | One Piece universe & inspiration |
-| **Vite Team** | ⚡ Build Tool | Lightning-fast development experience |
-| **React Team** | ⚛️ UI Framework | Component-based architecture |
-| **TypeScript Team** | 🔷 Language | Type safety & developer experience |
-| **Tailwind Team** | 🎨 CSS Framework | Utility-first styling approach |
-
-</div>
-
----
-
 ## 📄 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-*"The freedom to code, the freedom to share, the freedom to innovate."*
+*"A man's dream will never die!"* — **Marshall D. Teach (Blackbeard)**
 
 ---
 
