@@ -1,69 +1,140 @@
-# React + TypeScript + Vite
+# 🏴‍☠️ ONE PIECE - PIRATE ACADEMY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![One Piece Banner](./docs-assets/assets/images/logo.png)
 
-Currently, two official plugins are available:
+> **"I'm gonna be King of the Pirates!"** - Monkey D. Luffy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Una aplicación web temática de **One Piece** construida con las tecnologías más modernas del desarrollo frontend.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<div align="center">
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+</div>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- ⚡ **Vite** - Build tool súper rápido
+- ⚛️ **React 18** - Librería de UI moderna
+- 🔷 **TypeScript** - Tipado estático para JavaScript
+- 🎨 **Tailwind CSS v4** - Framework de CSS utility-first
+- 🖼️ **React Icons** - Iconos oficiales de tecnologías
+- 🔥 **SWC** - Compilador ultra rápido
+
+## 🎮 Características
+
+- 💰 **Contador de Berries** interactivo
+- 🖼️ **Imágenes de Luffy** (Gear 5 y decorativas)
+- 🎨 **Diseño temático** con colores de One Piece
+- 📱 **Diseño responsive** y moderno
+- ⚡ **Hot Module Replacement** para desarrollo rápido
+- 🏴‍☠️ **Tema pirata** completo
+
+## 🛠️ Instalación y Uso
+
+### Prerrequisitos
+- Node.js 18+ 
+- npm o yarn
+
+### Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/albertomarinmorales-coder/learningReact-TS.git
+
+# Navegar al directorio
+cd learningReact-TS
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📸 Screenshots
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🏠 Página Principal
+![Screenshot Principal](./docs-assets/assets/images/luffyG5.png)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+La aplicación presenta:
+- Header con logo de One Piece
+- Luffy Gear 5 como imagen central
+- Contador de berries funcional
+- Iconos de tecnologías utilizadas
+- Decoraciones temáticas de piratas
+
+## 📁 Estructura del Proyecto
+
 ```
+learningReact-TS/
+├── public/
+│   └── images/          # Imágenes de la aplicación
+├── src/
+│   ├── App.tsx          # Componente principal
+│   ├── index.css        # Estilos globales
+│   └── main.tsx         # Punto de entrada
+├── docs-assets/         # Recursos para documentación
+└── README.md           # Este archivo
+```
+
+## 🎯 Scripts Disponibles
+
+```bash
+npm run dev          # Servidor de desarrollo
+npm run build        # Build de producción
+npm run preview      # Preview del build
+npm run lint         # Linter ESLint
+```
+
+## 🌊 Funcionalidades
+
+### 💰 Contador de Berries
+- Incrementa al hacer click
+- Formato con separadores de miles
+- Animaciones suaves de hover
+
+### 🖼️ Galería de Imágenes
+- Luffy Gear 5 centralizado
+- Luffys decorativos en las esquinas
+- Iconos temáticos (mapa, herramientas, akuma no mi)
+
+### 🎨 Diseño Responsivo
+- Colores oficiales de One Piece
+- Gradientes y sombras temáticas
+- Tipografía optimizada
+
+## 🤝 Contribuir
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles.
+
+## 🙏 Agradecimientos
+
+- 🏴‍☠️ **Eiichiro Oda** - Creador de One Piece
+- ⚡ **Vite Team** - Por la herramienta de build increíble
+- ⚛️ **React Team** - Por la librería de UI
+- 🔷 **TypeScript Team** - Por el tipado estático
+
+---
+
+<div align="center">
+
+**¡Navega hacia el Grand Line del código!** 🌊
+
+![Jolly Roger](https://img.shields.io/badge/🏴‍☠️-PIRATE-red?style=for-the-badge)
+
+</div>
